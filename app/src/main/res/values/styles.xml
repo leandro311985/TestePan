@@ -1,0 +1,31 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="text_title">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/avenir</item>
+        <item name="fontStyle">normal</item>
+        <item name="fontWeight">800</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="lineHeight">@dimen/text_really_big</item>
+
+    </style>
+
+    <style name="LoadingDialog" >
+        <item name="android:windowNoTitle">true</item>
+        <!--        <item name="android:windowFullscreen">true</item>-->
+        <item name="android:windowIsFloating">false</item>
+        <!--        <item name="android:windowIsFloating">false</item>  funciona-->
+        <item name="android:windowBackground">@color/white_transparent</item>
+    </style>
+
+
+</resources>
+
+
